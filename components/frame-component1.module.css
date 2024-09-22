@@ -1,0 +1,119 @@
+.applyForYour {
+  margin: 0;
+}
+.dontSeeAContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 68px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.getInTouch {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  font-family: var(--font-inter);
+  color: var(--white);
+  text-align: left;
+  cursor: pointer;
+}
+.button25 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-50xl);
+  background-color: var(--color-palevioletred-100);
+  flex: 1;
+  border-radius: var(--br-7xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  min-width: 88px;
+}
+.button25:hover {
+  background-color: var(--color-palevioletred-200);
+}
+.image50Icon {
+  height: 90px;
+  width: 103px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.roleButton,
+.roleButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+}
+.roleButtonContainer {
+  width: 409px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  gap: var(--gap-45xl);
+}
+.roleButton {
+  width: 1175px;
+  align-items: flex-start;
+}
+.container65,
+.container65Wrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.container65 {
+  flex: 1;
+  box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+  border-radius: var(--br-xl);
+  background-color: var(--color-teal);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-29xl) var(--padding-44xl) var(--padding-28xl);
+  gap: var(--gap-10xs);
+  z-index: 5;
+}
+.container65Wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-81xl);
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--white);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 1050px) {
+  .dontSeeAContainer {
+    font-size: var(--font-size-19xl);
+    line-height: 54px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .container65 {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dontSeeAContainer {
+    font-size: var(--font-size-10xl);
+    line-height: 41px;
+  }
+  .roleButtonContainer {
+    gap: var(--gap-13xl);
+  }
+  .container65Wrapper {
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}

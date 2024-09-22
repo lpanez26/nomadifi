@@ -1,0 +1,38 @@
+.tag1,
+.tag2,
+.tag3 {
+  width: 57px;
+  height: 28px;
+  position: relative;
+  background-color: var(--color-gray-600);
+  display: none;
+}
+.tag2,
+.tag3 {
+  width: 68px;
+}
+.tag3 {
+  width: 238px;
+  height: 44px;
+}
+.homepage4,
+.root {
+  background-color: var(--white);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.homepage4 {
+  width: 1440px;
+  box-shadow: 0 3px 6px rgba(18, 15, 40, 0.12);
+  flex-direction: column;
+  max-width: 100%;
+}
+.root {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  line-height: normal;
+  letter-spacing: normal;
+}

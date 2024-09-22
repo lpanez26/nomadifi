@@ -1,0 +1,1065 @@
+.august,
+.date,
+.flightTickets,
+.frameChild {
+  position: absolute;
+  margin: 0 !important;
+  z-index: 2;
+}
+.frameChild {
+  height: 118.8px;
+  width: 30px;
+  bottom: 67.2px;
+  left: 83px;
+}
+.august,
+.date,
+.flightTickets {
+  display: inline-block;
+}
+.flightTickets {
+  bottom: 73.3px;
+  left: 134px;
+  font-size: var(--font-size-base);
+  min-width: 96px;
+}
+.august,
+.date {
+  left: 309px;
+}
+.date {
+  bottom: 85.6px;
+  color: var(--color-gray-100);
+  min-width: 25px;
+}
+.august {
+  bottom: 66.6px;
+  font-size: var(--font-size-sm);
+  min-width: 56px;
+}
+.time {
+  bottom: 85.6px;
+  left: 452px;
+  color: var(--color-gray-100);
+  min-width: 27px;
+}
+.amount,
+.dateAmountHeader,
+.dateAmountHeader1,
+.time {
+  position: absolute;
+  margin: 0 !important;
+  display: inline-block;
+  z-index: 2;
+}
+.dateAmountHeader {
+  bottom: 66.6px;
+  left: 452px;
+  font-size: var(--font-size-sm);
+  min-width: 35px;
+  white-space: nowrap;
+}
+.amount,
+.dateAmountHeader1 {
+  left: 589px;
+}
+.dateAmountHeader1 {
+  bottom: 66.6px;
+  font-size: var(--font-size-sm);
+  min-width: 59px;
+}
+.amount {
+  bottom: 85.6px;
+  color: var(--color-gray-100);
+  min-width: 43px;
+}
+.frameItem {
+  height: 1026px;
+  width: 1442px;
+  position: relative;
+  border-radius: var(--br-53xl);
+  background-color: var(--color-teal);
+  border: 1px solid var(--color-mediumaquamarine-200);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameInner,
+.vectorWrapper {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.frameInner {
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-53xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+.vectorWrapper {
+  margin: 0 !important;
+  right: -2px;
+  bottom: -2px;
+}
+.loanDetailsChild {
+  width: 1339px;
+  height: 768px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.blankLine {
+  margin: 0;
+}
+.payLoan {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-12xl);
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  font-family: var(--font-roboto);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-height: 108px;
+  z-index: 4;
+}
+.amountToBe,
+.amountValue {
+  position: relative;
+  line-height: 29px;
+}
+.amountToBe {
+  z-index: 5;
+}
+.amountValue {
+  display: inline-block;
+  min-width: 36px;
+}
+.loanAmount,
+.textfield {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textfield {
+  align-self: stretch;
+  height: 55px;
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  border: 1px solid var(--color-whitesmoke-500);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-2xs) var(--padding-xl) var(--padding-3xs);
+  z-index: 5;
+  color: #3f3e40;
+}
+.loanAmount {
+  position: absolute;
+  top: 69px;
+  left: 11px;
+  width: 488px;
+  flex-direction: column;
+  gap: var(--gap-12xs);
+  max-width: 100%;
+  font-family: var(--font-inter);
+}
+.debtBalance {
+  position: relative;
+  line-height: 29px;
+  display: inline-block;
+  min-width: 125px;
+  z-index: 4;
+}
+.debtValues {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.totalBorrowed {
+  position: relative;
+  line-height: 30px;
+  z-index: 4;
+}
+.debtBalances {
+  width: 392px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.interestAmount {
+  position: relative;
+  line-height: 31px;
+}
+.interestInput,
+.textfield1 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.textfield1 {
+  align-self: stretch;
+  height: 52px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-whitesmoke-300);
+  border: 1px solid var(--color-whitesmoke-500);
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-xl) var(--padding-5xs);
+  z-index: 4;
+}
+.interestInput {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+  min-width: 151px;
+}
+.interest {
+  position: relative;
+  line-height: 31px;
+}
+.button5 {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-whitesmoke-300);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-smi-5) var(--padding-mid) var(--padding-smi-5)
+    var(--padding-xl);
+  z-index: 4;
+}
+.button5,
+.debtInfo,
+.interestInputParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.interestInputParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-2xl);
+  margin-top: -2px;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-600);
+}
+.debtInfo {
+  position: absolute;
+  top: 174px;
+  left: 11px;
+  width: 488px;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+  font-family: var(--font-inter);
+}
+.installments,
+.paymentPending092224Container,
+.paymentPending3 {
+  position: absolute;
+  font-size: var(--font-size-xl);
+  line-height: 30px;
+  z-index: 4;
+}
+.installments {
+  top: 298px;
+  left: 12px;
+  display: inline-block;
+  color: #292b30;
+  width: 118px;
+  height: 30px;
+  min-width: 118px;
+}
+.paymentPending092224Container,
+.paymentPending3 {
+  top: 381px;
+  left: 11px;
+  color: var(--color-darkslategray-700);
+}
+.paymentPending3 {
+  top: 336px;
+  left: 12px;
+  font-size: var(--font-size-5xl);
+  line-height: 36px;
+  display: inline-block;
+  width: 401px;
+  height: 36px;
+}
+.loanActions {
+  width: 499px;
+  height: 471px;
+  position: relative;
+  max-width: 100%;
+}
+.creditHistory {
+  position: relative;
+  line-height: 30px;
+  z-index: 4;
+}
+.a300Credit,
+.continue {
+  position: relative;
+  display: inline-block;
+}
+.a300Credit {
+  line-height: 30px;
+  max-width: 100%;
+  z-index: 4;
+}
+.continue {
+  font-size: var(--font-size-base);
+  line-height: 26px;
+  font-family: var(--font-manrope);
+  color: var(--white);
+  text-align: left;
+  min-width: 77px;
+}
+.button20,
+.creditRequest {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button20 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-32xl) var(--padding-4xs) 53px;
+  background-color: var(--color-darkcyan);
+  box-shadow: 0 0 2px rgba(109, 49, 237, 0.12),
+    0 8px 17px rgba(109, 49, 237, 0.15);
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  justify-content: flex-start;
+  z-index: 6;
+}
+.button20:hover {
+  background-color: var(--color-lightseagreen);
+}
+.creditRequest {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  color: var(--color-darkslategray-700);
+}
+.creditInfo,
+.creditInfoWrapper,
+.loanDetails,
+.loanDetailsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.creditInfo {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.creditInfoWrapper,
+.loanDetails,
+.loanDetailsWrapper {
+  box-sizing: border-box;
+}
+.creditInfoWrapper {
+  width: 1075px;
+  flex-direction: row;
+  padding: 0 var(--padding-xs);
+  font-size: var(--font-size-xl);
+  color: #1b1c20;
+}
+.loanDetails,
+.loanDetailsWrapper {
+  flex-direction: column;
+}
+.loanDetails {
+  align-self: stretch;
+  border-radius: var(--br-11xl);
+  background-color: var(--white);
+  padding: 87px 84px var(--padding-46xl);
+  gap: 56px;
+  z-index: 3;
+}
+.loanDetailsWrapper {
+  flex: 1;
+  padding: 90px 0 0;
+  text-align: left;
+  font-size: var(--font-size-lgi);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-archivo);
+}
+.separatorIcon {
+  width: 56.5px;
+  height: 12.4px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 0.3px;
+  left: 497px;
+  z-index: 2;
+}
+.dashboard1 {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 107px;
+  z-index: 2;
+}
+.capturaDePantalla20240915 {
+  height: 45px;
+  width: 198px;
+  position: absolute;
+  margin: 0 !important;
+  top: -17px;
+  left: -192.5px;
+  object-fit: cover;
+  z-index: 3;
+}
+.dashboardLink {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  color: var(--white);
+}
+.getCredit,
+.more,
+.payLoan2 {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.03em;
+  color: inherit;
+  z-index: 2;
+}
+.getCredit {
+  flex: 1;
+}
+.more,
+.payLoan2 {
+  display: inline-block;
+}
+.payLoan2 {
+  min-width: 94px;
+}
+.more {
+  width: 82px;
+  flex-shrink: 0;
+}
+.navigationButtons {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-15xl);
+}
+.navigationLinks {
+  width: 494px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.walletBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  border: 1.5px solid var(--white);
+  box-sizing: border-box;
+  width: 118px;
+  height: 35px;
+  z-index: 2;
+}
+.connectWallet {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+  z-index: 3;
+}
+.capturaDePantalla20240918 {
+  height: 36px;
+  width: 157px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -10px;
+  left: -45px;
+  object-fit: cover;
+  z-index: 6;
+}
+.connectWalletButton {
+  position: absolute;
+  top: 8px;
+  left: 9px;
+  width: 112.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.walletBackgroundParent {
+  height: 35px;
+  width: 121.4px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  color: var(--white);
+}
+.navigation,
+.navigationItems {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.navigationItems {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.navigation {
+  width: 1102.5px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xl);
+  box-sizing: border-box;
+}
+.lineDiv {
+  width: 1256px;
+  position: relative;
+  border-top: 1px solid var(--color-gray-700);
+  max-width: 100%;
+  z-index: 3;
+}
+.frameChild1,
+.lineDiv,
+.lineParent {
+  height: 1px;
+  box-sizing: border-box;
+}
+.frameChild1 {
+  width: 59.8px;
+  position: relative;
+  border-top: 1px solid var(--color-dimgray-300);
+  z-index: 2;
+  margin-left: -1057.9px;
+}
+.lineParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-12xs);
+}
+.frameParent,
+.lineParent,
+.rectangleParent,
+.separatorParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.separatorParent {
+  width: 1273px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-8xs) 0 0 var(--padding-lg);
+  box-sizing: border-box;
+  position: sticky;
+  gap: 41.7px;
+  top: 0;
+  z-index: 99;
+  margin-left: -1273px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkgray);
+  font-family: var(--font-roboto);
+}
+.frameParent,
+.rectangleParent {
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  flex-shrink: 0;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-53xl);
+  background-color: var(--color-teal);
+  border: 1px solid var(--color-mediumaquamarine-200);
+  box-sizing: border-box;
+  padding: var(--padding-21xl) var(--padding-23xl) var(--padding-103xl)
+    var(--padding-38xl);
+}
+.frameParent {
+  align-self: stretch;
+  font-size: var(--font-size-xs);
+}
+.transactions {
+  position: relative;
+  font-weight: 500;
+  display: none;
+  min-width: 117px;
+  z-index: 10;
+}
+.dashboardChild {
+  width: 61px;
+  height: 3px;
+  position: relative;
+  border-top: 3px solid var(--color-thistle);
+  box-sizing: border-box;
+  display: none;
+  z-index: 11;
+}
+.vectorIcon {
+  position: absolute;
+  height: 18.21%;
+  width: 6.27%;
+  top: 0;
+  right: 93.73%;
+  bottom: 81.79%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.amazon {
+  top: 78px;
+  left: 50.6px;
+  min-width: 48px;
+}
+.amazon,
+.div,
+.hourAgo {
+  position: absolute;
+  display: inline-block;
+}
+.hourAgo {
+  top: 99px;
+  left: 50.6px;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-300);
+  min-width: 57px;
+}
+.div {
+  top: 87px;
+  left: 303.1px;
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+  width: 64px;
+  min-width: 64px;
+}
+.groupIcon,
+.vectorParent {
+  position: absolute;
+  top: 81.5px;
+  left: 171.4px;
+  width: 76.6px;
+  height: 27.7px;
+}
+.vectorParent {
+  height: 51.15%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 48.85%;
+  left: 0;
+}
+.myntra {
+  top: 84.7px;
+  left: 52.6px;
+  min-width: 41px;
+}
+.div1,
+.hourAgo1,
+.myntra {
+  position: absolute;
+  display: inline-block;
+}
+.hourAgo1 {
+  top: 105.7px;
+  left: 52.6px;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-300);
+  min-width: 57px;
+}
+.div1 {
+  top: 93.7px;
+  left: 305.1px;
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+  width: 61px;
+  min-width: 61px;
+}
+.frameChild2,
+.frameChild3 {
+  position: absolute;
+  top: 88.4px;
+  left: 173.4px;
+  width: 69.6px;
+  height: 27.5px;
+}
+.frameChild3 {
+  height: 12.69%;
+  width: 6.67%;
+  top: 0;
+  right: 93.33%;
+  bottom: 87.31%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.myntraParent {
+  position: absolute;
+  top: 101.3px;
+  left: 0;
+  width: 100%;
+  height: 119.8px;
+}
+.flipkart {
+  top: 82.7px;
+  left: 48.6px;
+  min-width: 44px;
+}
+.div2,
+.flipkart,
+.hourAgo2 {
+  position: absolute;
+  display: inline-block;
+}
+.hourAgo2 {
+  top: 103.7px;
+  left: 48.6px;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-300);
+  min-width: 57px;
+}
+.div2 {
+  top: 91.7px;
+  left: 301.1px;
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+  width: 61px;
+  min-width: 61px;
+}
+.frameChild4,
+.vectorIcon1 {
+  position: absolute;
+  top: 86.4px;
+  left: 169.4px;
+  width: 57.6px;
+  height: 27.5px;
+}
+.vectorIcon1 {
+  height: 19.02%;
+  width: 5.83%;
+  top: 0;
+  right: 94.17%;
+  bottom: 80.98%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.flipkartParent {
+  position: absolute;
+  top: 49.3px;
+  left: 2px;
+  width: 100%;
+  height: 117.8px;
+}
+.frameGroup {
+  width: 367px;
+  height: 221.1px;
+  max-width: 100%;
+  z-index: 12;
+  font-size: var(--font-size-smi);
+}
+.cards,
+.dashboardItem,
+.frameGroup {
+  position: relative;
+  display: none;
+}
+.cards {
+  font-weight: 500;
+  min-width: 53px;
+  z-index: 13;
+}
+.dashboardItem {
+  width: 33px;
+  height: 3px;
+  border-top: 3px solid var(--color-thistle);
+  box-sizing: border-box;
+  z-index: 14;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-800);
+  width: 100%;
+  height: 100%;
+}
+.month {
+  position: relative;
+  font-weight: 500;
+}
+.vectorIcon2 {
+  height: 3.5px;
+  width: 7px;
+  position: relative;
+  object-fit: contain;
+}
+.monthParent {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.expense,
+.rectangleGroup {
+  position: relative;
+  display: none;
+}
+.rectangleGroup {
+  width: 78px;
+  height: 29px;
+  z-index: 15;
+  font-size: var(--font-size-xs);
+  color: var(--color-whitesmoke-700);
+}
+.expense {
+  font-weight: 500;
+  min-width: 76px;
+  z-index: 16;
+}
+.dashboardInner,
+.frameChild5 {
+  position: relative;
+  box-sizing: border-box;
+  display: none;
+}
+.dashboardInner {
+  width: 47px;
+  height: 3px;
+  border-top: 3px solid var(--color-thistle);
+  z-index: 17;
+}
+.frameChild5 {
+  height: 35px;
+  width: 106px;
+  border-radius: var(--br-5xs);
+  border: 1.5px solid var(--white);
+}
+.invoice {
+  position: relative;
+  z-index: 1;
+}
+.frameDiv,
+.rectangleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.rectangleContainer {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  border: 1.5px solid var(--white);
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-10xl) var(--padding-7xs);
+  z-index: 2;
+}
+.frameDiv {
+  height: 35px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-572xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-top: -100.3px;
+  font-size: var(--font-size-mini);
+}
+.dashboard,
+.root {
+  display: flex;
+  justify-content: flex-start;
+}
+.dashboard {
+  height: 918px;
+  flex: 1;
+  border-radius: var(--br-53xl);
+  background-color: var(--white);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.root {
+  width: 100%;
+  height: 900px;
+  position: relative;
+  background-color: var(--color-teal);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--white);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 1200px) {
+  .frameDiv,
+  .loanDetails {
+    padding-left: var(--padding-23xl);
+    padding-right: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+  .frameDiv {
+    padding-left: var(--padding-276xl);
+    padding-right: var(--padding-276xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .payLoan {
+    font-size: var(--font-size-6xl);
+  }
+  .creditRequest {
+    flex-wrap: wrap;
+  }
+  .loanDetails {
+    padding-top: var(--padding-38xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+  .loanDetailsWrapper,
+  .rectangleParent {
+    padding-top: var(--padding-39xl);
+    box-sizing: border-box;
+  }
+  .rectangleParent {
+    padding-top: var(--padding-7xl);
+    padding-bottom: 79px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .interestInputParent {
+    flex-wrap: wrap;
+  }
+  .loanDetails {
+    gap: var(--gap-9xl);
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .navigationButtons {
+    display: none;
+    gap: var(--gap-mid);
+  }
+  .navigationLinks {
+    width: 0;
+  }
+  .separatorParent {
+    gap: var(--gap-2xl);
+  }
+  .frameDiv,
+  .rectangleParent {
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .frameDiv {
+    padding-left: var(--padding-128xl);
+    padding-right: var(--padding-128xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .payLoan {
+    font-size: var(--font-size-lgi);
+  }
+  .debtBalances {
+    flex-wrap: wrap;
+  }
+  .interestAmount {
+    font-size: var(--font-size-base);
+    line-height: 25px;
+  }
+  .installments,
+  .paymentPending092224Container {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .paymentPending3 {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .loanActions {
+    height: auto;
+    min-height: 471;
+  }
+  .a300Credit,
+  .creditHistory {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .loanDetails {
+    padding-top: var(--padding-18xl);
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .loanDetailsWrapper {
+    padding-top: 38px;
+    box-sizing: border-box;
+  }
+  .rectangleParent {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+  .cards,
+  .expense,
+  .transactions {
+    font-size: var(--font-size-base);
+  }
+  .frameDiv {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .dashboard,
+  .root {
+    height: auto;
+  }
+}
